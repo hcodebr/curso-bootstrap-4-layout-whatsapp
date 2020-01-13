@@ -1,0 +1,56 @@
+h6 {
+    margin: 0;
+}
+
+section header {
+    border-bottom: #dbdbdb 1px solid;
+}
+
+header, footer {
+    background-color: #eee;
+    padding: 5px;
+    min-height: 60px;
+}
+
+header img,
+.list-group img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header img {
+    margin-left: 16px;
+}
+
+.list-group-item {
+    border-radius: 0!important;
+    border-left: none;
+    border-right: none;
+    border-color: #f8f8f8;
+}
+
+main {
+    background-color: #e5ddd5;
+    min-height: calc(100vh - 121px);
+}
+
+.badge-success {
+    background-color: #09d261;
+}
+
+#search {
+    background-color: #f8f8f8;
+    min-height: 50px;
+}
+
+#panel-left {
+    border-right: #dbdbdb 1px solid;
+    color: #4d4d4d;
+}
+#panel-left small {
+    color: #9b9b9b;
+}
+.timeago {
+    color: #999;
+    font-size: .8em;
+}
